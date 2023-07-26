@@ -1,0 +1,49 @@
+.item{
+    position: relative;
+}
+
+.item-caption{
+    padding: 0 10px;
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    left: 10%;
+    background-color: #fff;
+}
+#lightbox-container{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.item img{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+#lightbox-item{
+    width: 60%;
+    height: 500px;
+    background-image: url(../images/test.jpg);
+    background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+
+}
+
+
+#closes{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
